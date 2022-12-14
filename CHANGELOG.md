@@ -4,6 +4,14 @@
 
 [1]: https://pypi.org/project/google-auth/#history
 
+## [2.16.0](https://github.com/googleapis/google-auth-library-python/compare/v2.15.0...v2.16.0) (2022-12-14)
+
+
+### Features
+
+* AwsCredentials should not call metadata server if security creds and region are retrievable through the environment variables ([#1195](https://github.com/googleapis/google-auth-library-python/issues/1195)) ([5e27c8f](https://github.com/googleapis/google-auth-library-python/commit/5e27c8f213b2e19ec504a04e1f95fc1333ea9e1e))
+* Wrap all python built-in exceptions into library excpetions ([#1191](https://github.com/googleapis/google-auth-library-python/issues/1191)) ([a83af39](https://github.com/googleapis/google-auth-library-python/commit/a83af399fe98764ee851997bf3078ec45a9b51c9))
+
 ## [2.15.0](https://github.com/googleapis/google-auth-library-python/compare/v2.14.1...v2.15.0) (2022-12-01)
 
 
